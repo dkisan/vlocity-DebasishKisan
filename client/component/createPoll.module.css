@@ -1,0 +1,74 @@
+.createpollcontainer {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .createpollheader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .createpollform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .createpolllabel {
+    margin-bottom: 10px;
+  }
+  
+  .createpollinput {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .createpolloptions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .createpolloption {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .createpollbutton {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .createpollbutton:hover {
+    background-color: #3e8e41;
+  }
+  
+  .addoptionbutton {
+    background-color: #03A9F4;
+  }
+  
+  .addoptionbutton:hover {
+    background-color: #039BE5;
+  }
+  
+  .createpollbutton .createpollbutton {
+    background-color: #4CAF50;
+  }
+  
+  .createpollbutton .createpollbutton:hover {
+    background-color: #3e8e41;
+  }

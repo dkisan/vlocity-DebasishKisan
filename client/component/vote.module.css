@@ -1,0 +1,55 @@
+.votecontainer {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.votetitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pollquestion {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.optionslist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.optionitem {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.optionname {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.radiobutton {
+  margin-right: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.votebutton {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.votebutton:hover {
+  background-color: #3e8e41;
+}
